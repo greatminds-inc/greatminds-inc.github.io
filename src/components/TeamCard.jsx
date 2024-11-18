@@ -1,14 +1,6 @@
 import { Linkedin } from 'lucide-react';
 
-interface TeamMemberProps {
-  name: string;
-  role: string;
-  description: string;
-  image: string;
-  linkedinUrl: string;
-}
-
-export default function TeamCard({ name, role, description, image, linkedinUrl }: TeamMemberProps) {
+export default function TeamCard({ name, role, description, image, linkedinUrl }) {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2">
       <div className="aspect-w-3 aspect-h-4">
