@@ -1,6 +1,6 @@
 import { Brain, Lightbulb, Cog } from 'lucide-react';
 import { motion } from 'framer-motion';
-import HeroSection from '../components/HeroSection';
+import HeroSection from '../components/HeroSection/HeroSection';
 import ServiceCard from '../components/ServiceCard';
 
 const services = [
@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      
+
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <motion.div
