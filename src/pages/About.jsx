@@ -2,6 +2,7 @@ import TeamCard from '../components/TeamCard';
 
 import jm from "../assets/jm.jpg"
 import mf from "../assets/mf.jpg"
+import sp from "../assets/sp.jpeg"
 
 const teamMembers = [
   {
@@ -21,8 +22,8 @@ const teamMembers = [
   {
     name: "Sanjay Pandey",
     role: "TBD",
-    description: "Lorem ipsum odor amet, consectetuer adipiscing elit. Maecenas dictumst commodo sodales non nec scelerisque. Sem rutrum euismod iaculis erat egestas volutpat fames hac. Nibh commodo vel interdum in consequat tempus.",
-    image: "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    description: "With over 25 years of business and technology leadership, I drive international business development and revenue growth at Dotlines as the Chief Business Officer. I have a proven track record of closing mega enterprise deals and managing transformative programs globally. My strengths lie in innovation, partnership, and leading high-performance teams.",
+    image: sp,
     linkedinUrl: "https://www.linkedin.com/in/pandeysanjay/"
   }
 ];

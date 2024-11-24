@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { LucideIcon } from 'lucide-react';
 
 
 export default function ServiceCard({ title, description, icon: Icon, delay }) {

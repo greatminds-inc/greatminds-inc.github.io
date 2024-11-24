@@ -1,4 +1,4 @@
-import { Brain } from 'lucide-react';
+import logo from "../assets/logo.png"
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <Link to="/" className="flex items-center space-x-2">
-              <Brain className="h-8 w-8 text-indigo-400" />
+              <img src={logo} alt="Greatminds Inc. Logo" className="h-8 w-8 text-indigo-400" />
               <span className="text-xl font-bold">Greatminds Inc.</span>
             </Link>
             <p className="mt-4 text-gray-400">

@@ -1,4 +1,4 @@
-import { Brain } from 'lucide-react';
+import logo from "../assets/logo.png"
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-2">
-            <Brain className="h-8 w-8 text-indigo-600" />
+            <img src={logo} alt="Greatminds Inc. Logo" className="h-10" />
             <span className="text-2xl font-bold text-gray-900">Greatminds Inc.</span>
           </Link>
 
